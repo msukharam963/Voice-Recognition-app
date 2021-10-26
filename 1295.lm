@@ -1,0 +1,68 @@
+Language model created by QuickLM on Sun Oct 24 00:38:17 EDT 2021
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 9 sentences and 10 words
+
+\data\
+ngram 1=10
+ngram 2=17
+ngram 3=18
+
+\1-grams:
+-0.9031 </s> -0.3010
+-0.9031 <s> -0.2430
+-1.5563 CALCULATOR -0.2430
+-1.2553 CLOSE -0.2499
+-1.5563 EDGE -0.2430
+-1.5563 GMAIL -0.2430
+-1.2553 OPEN -0.2499
+-1.8573 SENSING -0.2430
+-1.8573 STOP -0.2950
+-1.5563 STORE -0.2430
+
+\2-grams:
+-0.6532 <s> CLOSE 0.0000
+-0.6532 <s> OPEN 0.0000
+-1.2553 <s> STOP 0.0000
+-0.3010 CALCULATOR </s> -0.3010
+-0.9031 CLOSE CALCULATOR 0.0000
+-0.9031 CLOSE EDGE 0.0000
+-0.9031 CLOSE GMAIL 0.0000
+-0.9031 CLOSE STORE 0.0000
+-0.3010 EDGE </s> -0.3010
+-0.3010 GMAIL </s> -0.3010
+-0.9031 OPEN CALCULATOR 0.0000
+-0.9031 OPEN EDGE 0.0000
+-0.9031 OPEN GMAIL 0.0000
+-0.9031 OPEN STORE 0.0000
+-0.3010 SENSING </s> -0.3010
+-0.3010 STOP SENSING 0.0000
+-0.3010 STORE </s> -0.3010
+
+\3-grams:
+-0.9031 <s> CLOSE CALCULATOR
+-0.9031 <s> CLOSE EDGE
+-0.9031 <s> CLOSE GMAIL
+-0.9031 <s> CLOSE STORE
+-0.9031 <s> OPEN CALCULATOR
+-0.9031 <s> OPEN EDGE
+-0.9031 <s> OPEN GMAIL
+-0.9031 <s> OPEN STORE
+-0.3010 <s> STOP SENSING
+-0.3010 CLOSE CALCULATOR </s>
+-0.3010 CLOSE EDGE </s>
+-0.3010 CLOSE GMAIL </s>
+-0.3010 CLOSE STORE </s>
+-0.3010 OPEN CALCULATOR </s>
+-0.3010 OPEN EDGE </s>
+-0.3010 OPEN GMAIL </s>
+-0.3010 OPEN STORE </s>
+-0.3010 STOP SENSING </s>
+
+\end\

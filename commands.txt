@@ -1,0 +1,9 @@
+open edge
+close edge
+open calculator
+close calculator
+open gmail
+close gmail
+open store
+close store
+stop sensing
